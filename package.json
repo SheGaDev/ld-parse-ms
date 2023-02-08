@@ -14,5 +14,9 @@
     "timestamp"
   ],
   "author": "SheGaDev",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SheGaDev/ld-parse-ms"
+  },
 }
