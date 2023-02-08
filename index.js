@@ -34,7 +34,6 @@ function parseMilliseconds(milliseconds, args = u) {
     for (const a of args) result[a] = math(calcs[a](milliseconds));
     return result;
 }
-
 /**
  * 
  * @param {Number} milliseconds 
@@ -55,8 +54,8 @@ function formatTime(milliseconds, mark = false, args) {
  * @param {String} style Timestamp Style, default value - "f". Others values: "t" - 16:20 | "T" - 16:20:30 | "d" - 20/04/2021 | "D" - 20 April 2021 | "f" - 20 April 2021 16:20 | "F" - Tuesday, 20 April 2021 16:20 | "R" - 2 months ago
  * @returns {String} formatted timestamp discord
  */
-function formattingDiscordTimestamp(milliseconds, style = ":f"){
-    if(typeof milliseconds !== "number") throw new TypeError("Expected a Number");
+function formattingDiscordTimestamp(milliseconds, style = ":f") {
+    if (typeof milliseconds !== "number") throw new TypeError("Expected a Number");
     return `<t:${Math.floor(milliseconds / 1000)}${style}>`
 }
 module.exports = {
