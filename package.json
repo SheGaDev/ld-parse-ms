@@ -15,6 +15,7 @@
   ],
   "author": "SheGaDev",
   "license": "MIT",
+  "types": "./typing/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/SheGaDev/ld-parse-ms"
