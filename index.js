@@ -39,7 +39,7 @@ function parseMilliseconds(milliseconds, args = u) {
  * @param {Number} milliseconds 
  * @param {Boolean} mark default value false
  * @param {Array<String>} args 
- * @returns {String}
+ * @returns {String} "1г. 3мес. 1н. ..." or "`1г.` `3мес.` `1н.` ..."
  */
 function formatTime(milliseconds, mark = false, args) {
     const obj = parseMilliseconds(milliseconds, args);
