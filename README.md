@@ -22,12 +22,12 @@ formatTime(1234567890, true, ["minutes", "seconds"])
 ```
 ### Examples function **formattingDiscordTimestamp**
 ```js
-const { formattingsDiscordTimestamp } = require("ld-parse-ms")
+const { formattingDiscordTimestamp } = require("ld-parse-ms")
 
-formattingsDiscordTimestamp(1676064699727)
+formattingDiscordTimestamp(1676064699727)
 // return "<t:1676064699:f>"
 
-formattingsDiscordTimestamp(1676064699727, "R")
+formattingDiscordTimestamp(1676064699727, "R")
 // return "<t:1676064699:R>"
 ```
 ## Style Timestamp
